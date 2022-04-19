@@ -18,7 +18,35 @@ var (
 )
 
 const (
-	maxRetry = 10000
+	maxRetry               = 10000
+	TitleMaleTag           = "title_male_tag"
+	TitleFemaleTag         = "title_female_tag"
+	FirstNameMaleTag       = "first_name_male_tag"
+	FirstNameFemaleTag     = "first_name_female_tag"
+	LastNameMaleTag        = "last_name_male_tag"
+	LastNameFemaleTag      = "last_name_female_tag"
+	GenderTag              = "gender_tag"
+	FirstNameTag           = "first_name_tag"
+	LastNameTag            = "last_name_tag"
+	RandomFirstNameTag     = "random_first_name_tag"
+	RandomLastNameTag      = "random_last_name_tag"
+	TitleMaleTagID         = "title_male_id_tag"
+	TitleFemaleTagID       = "title_female_id_tag"
+	FirstNameMaleTagID     = "first_name_male_id_tag"
+	FirstNameFemaleTagID   = "first_name_female_id_tag"
+	LastNameMaleTagID      = "last_name_male_id_tag"
+	LastNameFemaleTagID    = "last_name_female_id_tag"
+	GenderTagID            = "gender_id_tag"
+	TitleMaleTagJP         = "title_male_jp_tag"
+	TitleMaleTagJPEN       = "title_male_jp_en_tag"
+	TitleFemaleTagJP       = "title_female_jp_tag"
+	TitleFemaleTagJPEN     = "title_female_jp_en_tag"
+	FirstNameMaleTagJP     = "first_name_male_jp_tag"
+	FirstNameMaleTagJPEN   = "first_name_male_jp_en_tag"
+	FirstNameFemaleTagJP   = "first_name_female_jp_tag"
+	FirstNameFemaleTagJPEN = "first_name_female_jp_en_tag"
+	LastNameTagJP          = "last_name_jp_tag"
+	LastNameTagJPEN        = "last_name_jp_en"
 )
 
 type TaggedFunction func(reflect.Value) interface{}
