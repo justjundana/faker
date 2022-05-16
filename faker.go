@@ -47,6 +47,7 @@ const (
 	FirstNameFemaleTagJPEN = "first_name_female_jp_en_tag"
 	LastNameTagJP          = "last_name_jp_tag"
 	LastNameTagJPEN        = "last_name_jp_en"
+	CountryTag             = "country_tag"
 )
 
 type TaggedFunction func(reflect.Value) interface{}
